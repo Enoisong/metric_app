@@ -12,7 +12,7 @@ const DatailePage = () => {
     <>
       <NavBar />
       <div className="detail-container">
-        <div className="in-containter">
+        <div className="im-containter">
           <h1 className="headin-text">{rareName.name ? rareName.name : 'none'}</h1>
           <img src={rareName.flag} alt={rareName.name} className="flags-img" />
         </div>
@@ -31,7 +31,7 @@ const DatailePage = () => {
         </h2>
         <h2 className="itemS-Info">
           <span>Population:</span>
-          {rareName.Population ? rareName.population : 'none'}
+          {rareName.population ? rareName.population : 'none'}
         </h2>
         <h2 className="itemS-Info">
           <span>Area:</span>

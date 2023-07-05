@@ -14,14 +14,14 @@ body {
 .top-header {
   width: 100%;
   height: 70px;
-  background:  #557255;
+  background: #557255;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .top-header h1 {
-  color:#fff
+  color: #fff;
 }
 
 .top-header img {
@@ -48,12 +48,12 @@ body {
 .small-container {
   width: 100%;
   height: 200px;
-  background:  #102410;
+  background: #102410;
   overflow: hidden;
 }
 
 .active {
-  background-color:  #102410;
+  background-color: #102410;
 }
 
 .country-info {
@@ -155,7 +155,7 @@ span {
 }
 
 .detail-container h2:nth-child(even) {
-  background:  #1f361f;
+  background: #1f361f;
 }
 
 .status-bar {

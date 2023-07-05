@@ -11,7 +11,7 @@ const DatailePage = () => {
   return (
     <>
       <NavBar />
-      <div className="detail-container">
+      <div className="datail-container">
         <div className="im-containter">
           <h1 className="headin-text">{rareName.name ? rareName.name : 'none'}</h1>
           <img src={rareName.flag} alt={rareName.name} className="flags-img" />

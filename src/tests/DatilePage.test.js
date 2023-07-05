@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import { useSelector } from 'react-redux';
 import { MemoryRouter } from 'react-router-dom';
 import { render, fireEvent, screen } from '@testing-library/react';
@@ -30,7 +30,7 @@ describe('<Homepage />', () => {
         <Homepage />
       </MemoryRouter>,
     ).toJSON();
-    expect(tree).toMatchSnapShot();
+    expect(tree).toMatchSnapshot();
   });
 
   it('Should displays all countries on load', () => {
@@ -46,11 +46,11 @@ describe('<Homepage />', () => {
   it('Should filters countries based on search', () => {
     render(
       <MemoryRouter>
-        <HomePage />
+        <Homepage />
       </MemoryRouter>,
     );
 
-    const searchInput = screen.getByPlaceholderText('🔍Search Country Here');
+    const searchInput = screen.getByPlaceholderText('🔍 Search Country Here');
     fireEvent.change(searchInput, { target: { value: 'test country 2' } });
 
     const countryImages = screen.getAllByRole('link', { name: /^test country 2/i });

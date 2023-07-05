@@ -50,21 +50,11 @@ it('Should filters countries based on search', () => {
     </MemoryRouter>,
    );
 
-   const searchInput = screen.getByPlaceholderText('🔍Search Country Here');
+   const searchInput = screen.getByPlaceholderText('🔍 Search Country Here');
         fireEvent.change(searchInput, { target: { value: 'test country 2' } });
 
         const countryImages = screen.getAllByRole('link', { name: /^test country 2/i });
         expect(countryImages).toHaveLength(1);
     });
 });
-
-
-    )
-})
-
-
-        )
-    })
-    })
-
-})
+ 

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import NavBar from './myNavBar';
 import './myStyle/Style.css';
 import countryMap from './image/backround.png';
-import bannarImage from './image/ban-img.png.png';
+import bannarImage from './image/ban-img.png';
 
 const Homepage = () => {
   const { myCountryData } = useSelector((store) => store.country);
@@ -25,7 +25,7 @@ const Homepage = () => {
       <div className="search-cont">
         <img src={bannarImage} alt="World Map" className="world-img" />
       </div>
-      <input type="text" value={searchinCountry} onChange={handleMyCountry} placeholder="&#x1F50D; Search Country " className="search-input" />
+      <input type="text" value={searchinCountry} onChange={handleMyCountry} placeholder="&#x1F50D; Search Country Here" className="search-input" />
       <div className="status-bar"><h2 className="country-status">Stats by Country</h2></div>
       <div className="container">
         {filterData.map((item, index) => (

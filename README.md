@@ -115,7 +115,7 @@ npx stylelint "**/*.{css,scss}"
  
 ### Deployment
 
-It will be deployed after merge
+[See Live on render](https://metric-app-7uio.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

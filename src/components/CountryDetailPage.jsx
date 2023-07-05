@@ -10,7 +10,7 @@ const CountryDatailePage = () => {
 
   return (
     <>
-      <NavBar />
+      <Header />
       <div className="datail-container">
         <div className="im-containter">
           <h1 className="headin-text">{rareName.name ? rareName.name : 'none'}</h1>

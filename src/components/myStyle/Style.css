@@ -14,7 +14,7 @@ body {
 .top-header {
   width: 100%;
   height: 70px;
-  background:  #a5bba5;
+  background: #a5bba5;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,8 +26,8 @@ body {
   font-size: 2em;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   font-weight: bold;
 }
 
@@ -55,12 +55,12 @@ body {
 .small-container {
   width: 100%;
   height: 200px;
-  background: #102410;
+  background: #557255; 
   overflow: hidden;
 }
 
 .active {
-  background-color: #102410;
+  background-color: #557255; 
 }
 
 .country-info {
@@ -118,9 +118,8 @@ body {
   width: 100%;
   height: auto;
   margin-top: 100px;
-  margin-bottom: 100px;  
+  margin-bottom: 100px;
 }
-
 
 .im-containter {
   display: flex;
@@ -163,8 +162,7 @@ span {
 }
 
 .datail-container h2:nth-child(even) {
-  background: #557255;
-  background: 
+  background: #557255;  
 }
 
 .status-bar {

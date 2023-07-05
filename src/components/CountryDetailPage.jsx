@@ -1,8 +1,8 @@
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import NavBar from './myNavBar';
+import Header from './Header';
 
-const DatailePage = () => {
+const CountryDatailePage = () => {
   const { fName } = useParams();
 
   const { myCountryData } = useSelector((store) => store.country);
@@ -44,4 +44,4 @@ const DatailePage = () => {
   );
 };
 
-export default DatailePage;
+export default CountryDatailePage;

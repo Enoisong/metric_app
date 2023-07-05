@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { MemoryRouter } from 'react-router-dom';
 import { render, fireEvent, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Homepage from '../components/myHomePage';
+import Homepage from '../components/CountryHomePage';
 
 jest.mock('react-redux', () => ({
   useSelector: jest.fn(),

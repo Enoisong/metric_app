@@ -3,7 +3,7 @@ import back from './image/bac.png';
 import microphone from './image/micro.png';
 import setting from './image/set.png';
 
-const NavBar = () => (
+const Header = () => (
   <div className="top-header">
     <Link to="/"><img src={back} alt="Back Icon" className="back-im" /></Link>
     <h1>Population Metrics</h1>
@@ -14,4 +14,4 @@ const NavBar = () => (
   </div>
 );
 
-export default NavBar;
+export default Header;

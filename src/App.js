@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import Homepage from './components/myHomePage';
 import { countriesItems } from './Redux/country/countrySlice';
-import DatailePage from './components/myDetailPage';
+import DatailePage from './components/CountryDetailPage';
 
 function App() {
   const dispatch = useDispatch();

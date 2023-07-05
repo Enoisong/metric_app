@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NavBar Should renders correctly 1`] = `
+exports[`Header Should renders correctly 1`] = `
 <div
   className="top-header"
 >

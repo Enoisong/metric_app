@@ -1,12 +1,12 @@
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import NavBar from './myNavBar';
+import Header from './Header';
 import './myStyle/Style.css';
 import countryMap from './image/backround.png';
 import bannarImage from './image/ban-img.png';
 
-const Homepage = () => {
+const CountryHomepage = () => {
   const { myCountryData } = useSelector((store) => store.country);
 
   const [searchinCountry, setsearchCountry] = useState('');
@@ -21,7 +21,7 @@ const Homepage = () => {
 
   return (
     <>
-      <NavBar />
+      <Header />
       <div className="search-cont">
         <img src={bannarImage} alt="World Map" className="world-img" />
       </div>
@@ -47,4 +47,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default CountryHomepage;

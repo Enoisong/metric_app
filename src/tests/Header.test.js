@@ -1,13 +1,13 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
-import NavBar from '../components/myNavBar';
+import Header from '../components/Header';
 
-describe('NavBar', () => {
+describe('Header', () => {
   it('Should renders correctly', () => {
     const component = renderer.create(
       <Router>
-        <NavBar />
+        <Header />
       </Router>,
     );
     const tree = component.toJSON();

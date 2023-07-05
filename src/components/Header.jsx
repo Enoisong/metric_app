@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import back from './image/bac.png';
-import microphone from './image/micro.png';
-import setting from './image/set.png';
+import back from './image/ba.png';
+import microphone from './image/bd.png';
+import setting from './image/be.png';
 
 const Header = () => (
   <div className="top-header">

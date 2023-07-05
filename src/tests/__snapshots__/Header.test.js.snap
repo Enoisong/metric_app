@@ -11,7 +11,7 @@ exports[`Header Should renders correctly 1`] = `
     <img
       alt="Back Icon"
       className="back-im"
-      src="bac.png"
+      src="ba.png"
     />
   </a>
   <h1>
@@ -22,12 +22,12 @@ exports[`Header Should renders correctly 1`] = `
   >
     <img
       alt="Microphone icon"
-      src="micro.png"
+      src="bd.png"
     />
     <img
       alt="Setting icon"
       className="set-img"
-      src="set.png"
+      src="be.png"
     />
   </div>
 </div>

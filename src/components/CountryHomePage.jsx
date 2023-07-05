@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Header from './Header';
 import './myStyle/Style.css';
-import countryMap from './image/backround.png';
-import bannarImage from './image/ban-img.jpg';
+import countryMap from './image/bb.png';
+import bannarImage from './image/bc.jpg';
 
 const CountryHomepage = () => {
   const { myCountryData } = useSelector((store) => store.country);

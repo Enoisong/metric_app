@@ -7,21 +7,28 @@
 }
 
 body {
-  background: #557255;
+  background: #a5bba5;
   font-family: 'Prompt', sans-serif;
 }
 
 .top-header {
   width: 100%;
   height: 70px;
-  background: #557255;
+  background:  #a5bba5;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.top-header h1 {
+.h1 {
   color: #fff;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .top-header img {
@@ -107,12 +114,13 @@ body {
   transition: all 1s;
 }
 
-.detail-container {
+.datail-container {
   width: 100%;
   height: auto;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 100px;  
 }
+
 
 .im-containter {
   display: flex;
@@ -154,8 +162,9 @@ span {
   color: #000;
 }
 
-.detail-container h2:nth-child(even) {
-  background: #1f361f;
+.datail-container h2:nth-child(even) {
+  background: #557255;
+  background: 
 }
 
 .status-bar {

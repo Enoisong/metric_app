@@ -38,7 +38,7 @@ Array [
     <img
       alt="World Map"
       className="world-img"
-      src="ban-img.png"
+      src="ban-img.jpg"
     />
   </div>,
   <input

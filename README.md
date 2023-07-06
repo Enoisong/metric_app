@@ -114,8 +114,7 @@ npx eslint "**/*.{js,jsx}"
 npx stylelint "**/*.{css,scss}"
  
 ### Deployment
-
-[See Live on render](https://metric-app-7uio.onrender.com)
+[See Live on render](https://metric-app-7uio.onrender.com) 
 [Video](https://www.loom.com/share/75db8abbe4434b9b9dc0689aa0eb5ff8)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

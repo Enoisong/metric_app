@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Should renders correctly 1`] = `
+<div
+  className="top-header"
+>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Back Icon"
+      className="back-im"
+      src="ba.png"
+    />
+  </a>
+  <h1>
+    Population Metrics
+  </h1>
+  <div
+    className="right-icon"
+  >
+    <img
+      alt="Microphone icon"
+      src="bd.png"
+    />
+    <img
+      alt="Setting icon"
+      className="set-img"
+      src="be.png"
+    />
+  </div>
+</div>
+`;

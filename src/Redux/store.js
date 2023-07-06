@@ -7,5 +7,4 @@ const store = configureStore({
     country: countryReducer,
   },
 });
-
 export default store;
